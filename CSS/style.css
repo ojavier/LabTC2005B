@@ -20,3 +20,13 @@
   strong {
     color: #333;
   }
+
+  .verde{
+    color: green;
+  }
+  .verde:hover {
+      color: lawngreen;
+  }
+  #titulo {
+      color:blue;
+  }
