@@ -2,22 +2,54 @@
 <html>
     <head> 
         <meta charset="UTF-8">
-        <title>Laboratios</title>
-        <link rel='stylesheet' href='CSS/style.css'>
+        <title>Musica</title>
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">  
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>     
     </head>
 
     <body>
+        <div class="navbar-fixed">
+        <nav class="blue">
+            <div class="nav-wrapper">
+              <a href="#"><img src="https://e7.pngegg.com/pngimages/335/219/png-clipart-black-musical-note-black-music.png" alt="logo" style="height: 64px; vertical-align: middle; margin-right: 10px;"></a>
+              <a href="#" class="brand-logo">Inicio</a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="sass.html"><i class="material-icons right">search</i>Buscar</a></li>
+                <li><a href="badges.html">Mi música</a></li>
+                <li><a href="collapsible.html">Iniciar sesión</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+
+         <div class = "container">
         <header>
-            <h1 id="titulo">Laboratios</h1>
+          <h2 class="left-align">Bienvenido</h2>
         </header>
 
-        <main>
-            <h3>Lista de Tareas</h3>
-            <div id="resultado"></div>
-        
-
+        <main> 
+          <div class="container">
+              <h6>Aquí podrás conocer música nueva y ofrecer opiniones de música escuchada previamente</h6>
+          </div>
+          <br>
+          <br>
+          <h4>Álbum del día</h4>
+          <br>
+          <!-- Contenedor que centra la imagen horizontalmente -->
+          <div class="container" style="display: flex; justify-content: center;">
+              <a href="#"><img src="https://indierocks.sfo3.digitaloceanspaces.com/wp-content/uploads/2021/10/Black-Country-New-Road-AntsFromUpThere_2021.jpeg" alt="logo" style="width: 60%; height: auto;"></a>
+          </div>
+          <div class="container">
+              <h6>Ants From Up There - Black Country New Roads</h6>
+          </div> 
         </main>
+        </div> 
         <footer></footer>
-        <script src="js/control.js"></script>
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     </body>
 </html>
