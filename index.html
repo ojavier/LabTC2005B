@@ -39,17 +39,37 @@
           <br>
           <h4>Álbum del día</h4>
           <br>
-          <!-- Contenedor que centra la imagen horizontalmente -->
-          <div class="container" style="display: flex; justify-content: center;">
-              <a href="#"><img src="https://indierocks.sfo3.digitaloceanspaces.com/wp-content/uploads/2021/10/Black-Country-New-Road-AntsFromUpThere_2021.jpeg" alt="logo" style="width: 60%; height: auto;"></a>
+
+          
+          <div class="row">
+            <div class="col l2 m1"></div>
+            <div class="col l8 m10 s12 block white" style="position: relative;">
+              <!-- Botón de flecha izquierda -->
+              <a href="#" class="left-arrow" style="position: absolute; top: 50%; left: -30px; transform: translateY(-50%); z-index: 10;">
+                <i class="material-icons">chevron_left</i>
+              </a>
+              
+              <!-- Imagen y nombre dinámicos -->
+              <a href="#">
+                <img id="album-cover" class="center-align" src="https://indierocks.sfo3.digitaloceanspaces.com/wp-content/uploads/2021/10/Black-Country-New-Road-AntsFromUpThere_2021.jpeg" alt="logo" style="width: 100%; height: auto;">
+              </a>
+              <div id="album-name" class="center-align">
+                <h6>Ants From Up There - Black Country New Roads</h6>
+              </div>
+              
+              <!-- Botón de flecha derecha -->
+              <a href="#" class="right-arrow" style="position: absolute; top: 50%; right: -30px; transform: translateY(-50%); z-index: 10;">
+                <i class="material-icons">chevron_right</i>
+              </a>
+            </div>
+            <div class="col l2 m1"></div>
           </div>
-          <div class="container">
-              <h6>Ants From Up There - Black Country New Roads</h6>
-          </div> 
+          
         </main>
         </div> 
         <footer></footer>
         <!-- Compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="Public/JS/Botones.js"></script>
     </body>
 </html>
