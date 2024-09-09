@@ -1,0 +1,20 @@
+Repositorio de proyecto
+https://github.com/ojavier/RewardsSystem.git
+
+
+
+Lab 8: Introducción al backend SHA
+50e3ed166bffc58ec1041f636d975eb38f36de1c
+
+Lab 10: Rutas y formas SHA
+243f75b9037306cb6f19b07f6484847e3495d694
+
+Lab 11: Express SHA
+e5daabb1bbe572383789469780dcd8ec773df05e
+Este archivo contiene información sobre el proyecto, las dependencias que utiliza, 
+scripts de ejecución, versiones, y más
+
+Lab 12: HTML dinámico SHA
+95c429516b4ec828b5f6f91ad06f06bacbd397ca
+A parte de EJS existe PUG anteriormente Jade, es similar a Python pero no usa etiquetas HTML explícitas, tambien existe Handlebars.js, 
+que es un motor de plantillas basado en Musatche, por último está Mustache, se encuentra basado en el principio de no lógica en las plantillas
